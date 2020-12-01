@@ -13,7 +13,6 @@ const methodOverride = require('method-override');
 const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const User = require('./models/user');
-//const dbUrl=process.env.DB_URL;
 const mongoSanitize=require('express-mongo-sanitize');
 
 const MongoDBStore=require("connect-mongo")(session);
